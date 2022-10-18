@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Дз2
+# goit-markup-hw-01
+Домашня робота 1
