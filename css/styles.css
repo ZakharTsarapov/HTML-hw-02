@@ -13,7 +13,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19em;
     letter-spacing: 0.03em;
     color: #000000;
     text-shadow: rgba(0, 0, 0, 0.25)
@@ -28,7 +28,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.12em;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -47,7 +47,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.12em;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -63,6 +63,34 @@ body {
 }
 
 /* main styles */
+
+.hero-section {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    width: 216px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 
 /* footer styles */
 .site-footer {
@@ -81,15 +109,21 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71em;
     letter-spacing: 0.03em;
 }
-.footer-mail, .footer-tel {
+
+.footer-mail,
+.footer-tel {
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail:hover, .footer-mail:focus {
+
+.footer-mail:hover,
+.footer-mail:focus {
     color: #2196F3
 }
-.footer-tel:hover, .footer-tel:focus {
+
+.footer-tel:hover,
+.footer-tel:focus {
     color: #2196F3
 }
