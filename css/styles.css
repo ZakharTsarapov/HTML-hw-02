@@ -1,4 +1,93 @@
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* head styles */
+.site-header {
+    background: #FFFFFF;
+}
+
+.site-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.25)
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.menu-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.head-text:hover,
+.head-text:focus {
+    color: #2196F3;
+}
+
+.nav-point {
+    color: #FFFFFF;
+}
+
+.mail,
+.tel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
+
+/* main styles */
+
+/* footer styles */
+.site-footer {
+    background: #2F303A;
+}
+
+.footer-point {
+    color: #2F303A;
+}
+
+.footer-address {
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.footer-mail, .footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover, .footer-mail:focus {
+    color: #2196F3
+}
+.footer-tel:hover, .footer-tel:focus {
+    color: #2196F3
 }
