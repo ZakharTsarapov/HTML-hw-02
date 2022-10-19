@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    color: #212121;
 }
 
 /* head styles */
@@ -9,6 +9,7 @@ body {
 }
 
 .site-logo {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -19,6 +20,7 @@ body {
 }
 
 .logo {
+    font-family: 'Raleway';
     color: #2196F3;
 }
 
