@@ -1,10 +1,13 @@
-
 /* Цветовая палира макета 
 главный цвет #212121 
 цвет ховера и лого #2196F3
 второй цвет лого #000000
 цвет текста #757575
 white color #FFFFFF
+цвет контактов rgba(255, 255, 255, 0.6)
+цвет бг #2F303A
+тени rgba(0, 0, 0, 0.25)
+бг сайта #F5F5F5
 */
 
 
@@ -15,13 +18,17 @@ white color #FFFFFF
     --accent-color: #2196F3;
     --logo-color: #000000;
     --white-color: #FFFFFF;
+    --contact-color: rgba(255, 255, 255, 0.6);
+    --bg-color: #2F303A;
+    --text-shadow: rgba(0, 0, 0, 0.25);
+    --site-bg: #F5F5F5;
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-    background: #F5F5F5;
+    background: var(--site-bg);
 }
 
 .list {
@@ -30,7 +37,7 @@ body {
 
 /* head styles */
 .site-header {
-    background: #FFFFFF;
+    background: var(--white-color);
 }
 
 /* logo styles */
@@ -39,10 +46,10 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19em;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-color);
-    text-shadow: rgba(0, 0, 0, 0.25)
+    text-shadow: var(--text-shadow);
 }
 
 .logo {
@@ -55,9 +62,13 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.12em;
+    line-height: 1.12;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+
+.menu-nav .head-text.current {
+    color: var(--accent-color);
 }
 
 .head-text:hover,
@@ -70,7 +81,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.12em;
+    line-height: 1.12;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -88,7 +99,7 @@ body {
 /* main styles */
 
 .hero-section {
-    background: #2F303A;
+    background: var(--bg-color);
 }
 
 /* hero styles */
@@ -96,10 +107,9 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: var(--white-color);
 }
 
@@ -109,17 +119,65 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87em;
+    line-height: 1.87;
     color: var(--white-color);
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background: var(--accent-color);
+
+}
+
+/* preority styles */
+.preority-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.preority-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* work styles */
+
+.work {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* team styles */
+
+
+.team {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 /* footer styles */
 .site-footer {
-    background: #2F303A;
+    background: var(--bg-color);
 }
 
 
@@ -132,13 +190,13 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71em;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .footer-mail,
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contact-color);
 }
 
 .footer-mail:hover,
@@ -150,3 +208,6 @@ body {
 .footer-tel:focus {
     color: var(--accent-color);
 }
+
+
+/* portfolio decor */
