@@ -1,6 +1,31 @@
+
+/* Цветовая палира макета 
+главный цвет #212121 
+цвет ховера и лого #2196F3
+второй цвет лого #000000
+цвет текста #757575
+white color #FFFFFF
+*/
+
+
+
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--primary-text-color);
+    background: #F5F5F5;
+}
+
+.list {
+    list-style: none;
 }
 
 /* head styles */
@@ -8,6 +33,7 @@ body {
     background: #FFFFFF;
 }
 
+/* logo styles */
 .site-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -15,51 +41,48 @@ body {
     font-size: 26px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color);
     text-shadow: rgba(0, 0, 0, 0.25)
 }
 
 .logo {
     font-family: 'Raleway';
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
+/* nav styles */
 .menu-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.12em;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .head-text:hover,
 .head-text:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.nav-point {
-    color: #FFFFFF;
-}
 
-.mail,
-.tel {
+.nav-contact {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.12em;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .mail:hover,
 .mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .tel:hover,
 .tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* main styles */
@@ -68,6 +91,7 @@ body {
     background: #2F303A;
 }
 
+/* hero styles */
 .hero-title {
     font-style: normal;
     font-weight: 900;
@@ -76,7 +100,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-button {
@@ -86,23 +110,22 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87em;
-    color: #FFFFFF;
+    color: var(--white-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 
 /* footer styles */
 .site-footer {
     background: #2F303A;
 }
 
-.footer-point {
-    color: #2F303A;
-}
 
+/* address styles */
 .footer-address {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .footer-nav {
@@ -120,10 +143,10 @@ body {
 
 .footer-mail:hover,
 .footer-mail:focus {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
-    color: #2196F3
+    color: var(--accent-color);
 }
