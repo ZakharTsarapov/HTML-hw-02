@@ -120,10 +120,10 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    cursor: pointer;
     color: var(--white-color);
     background: var(--accent-color);
-    cursor: pointer;
-
+    
 }
 
 /* preority styles */
