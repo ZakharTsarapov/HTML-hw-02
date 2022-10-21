@@ -214,6 +214,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background: var(--bg-button);
+    cursor: pointer;
 }
 
 .button:hover,
