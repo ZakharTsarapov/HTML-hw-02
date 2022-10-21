@@ -96,6 +96,13 @@ a {
     color: var(--text-color);
 }
 
+.mail {
+    color: var(--text-color);
+}
+
+.tel {
+    color: var(--text-color);
+}
 
 .mail:hover,
 .mail:focus {
