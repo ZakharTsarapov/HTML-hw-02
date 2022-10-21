@@ -22,6 +22,7 @@ white color #FFFFFF
     --bg-color: #2F303A;
     --text-shadow: rgba(0, 0, 0, 0.25);
     --site-bg: #F5F5F5;
+    --bg-button: #F5F4FA;
 }
 
 
@@ -108,7 +109,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
 }
@@ -130,7 +130,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .preority-text {
@@ -145,7 +144,6 @@ body {
 .work {
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -155,7 +153,6 @@ body {
 .team {
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -163,7 +160,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -171,7 +167,6 @@ body {
 .team-text {
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -211,3 +206,35 @@ body {
 
 
 /* portfolio decor */
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background: var(--bg-button);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background: var(--accent-color);
+}
+
+.scase {
+    background: var(--white-color);
+}
+
+.scase-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.scase-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
